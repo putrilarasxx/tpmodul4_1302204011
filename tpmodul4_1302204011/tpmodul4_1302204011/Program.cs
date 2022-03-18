@@ -10,6 +10,14 @@ namespace tpmodul4_1302204011
     {
         static void Main(string[] args)
         {
+            HaloGeneric.SapaUser<string>("Putri");
+        }
+        class HaloGeneric
+        {
+            public static void SapaUser<X>(X inputUser)
+            {
+                Console.WriteLine("Halo user " + inputUser);
+            }
         }
     }
 }
